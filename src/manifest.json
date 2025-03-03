@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Slack PWA Enhancements",
+  "version": "1.0",
+  "description": "Enhance Slack PWA functionality with automatic activity maintenance",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "assets/slack.png",
+    "128": "assets/slack.png"
+  },
+  "permissions": ["alarms", "idle", "scripting", "tabs"],
+  "host_permissions": ["https://*.app.slack.com/*"]
+}

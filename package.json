@@ -1,6 +1,6 @@
 {
   "name": "slack-pwa-enhancements",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Chrome extension to enhance Slack PWA functionality with automatic activity maintenance",
   "main": "dist/background.js",
   "scripts": {
